@@ -1,0 +1,122 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+}
+
+/* shared style here */
+.fs-1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.fs-2 {
+  font-size: 48px;
+}
+
+.fs-3 {
+  font-size: 40px;
+}
+.fs-1,
+.fs-2,
+.fs-3 {
+  font-weight: 800;
+}
+
+.fs-4 {
+  font-size: 24px;
+  font-weight: var(--bold, 600);
+}
+
+.paragrph {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.clr-bg1 {
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.clr-bg2 {
+  background: rgba(5, 151, 160, 0.15);
+}
+.clr-bg3 {
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.btn-primary {
+  border: none;
+  outline: none;
+  padding: 20px 43px;
+  border-radius: 8px;
+  background: rgb(229, 84, 115);
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.txt-ctr {
+  text-align: center;
+}
+
+.flx {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+/* Banner style */
+#baner .flx {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner-section {
+  max-width: 50%;
+  /* flex-grow: 1; */
+}
+
+img {
+  max-width: 700px;
+}
+
+.banner-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10rem;
+    gap: 2rem;
+}
